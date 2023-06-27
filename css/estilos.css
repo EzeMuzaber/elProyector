@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+}
+body {
+  /* background: rgb(23, 800, 500); color de fondo */
+  /* background: radial-gradient(circle,rgba(13, 127, 195, 1) 56%,rgba(7, 48, 191, 1) 100%);  */
+  /* background: rgb(4,71,171);
+background: linear-gradient(166deg, rgba(4,71,171,1) 44%, rgba(27,37,178,1) 57%); FONDO QUE VA*/
+}
+
+/***** MENU DE NAVEGACION  *****/
+
+.navbar-expand-lg .navbar-collapse {
+    align-content: flex-end;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+   
+  }
+
+.logoMenu1{
+  max-width: 20%;
+}
+.navColor{
+  background: rgb(23,87,154);
+  background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
+}
+
+ .navbar-nav .nav-link.active{
+  font-size: 20px;
+} 
+ .navbar-nav .nav-link.dropdown-toggle{
+  font-size: 20px;
+} 
+
+.dropdown-menu{
+  background: rgb(23,87,154);
+  background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
+}
+.dropdown-menu a{
+ color:white;
+}
+
+/* .dropdown-menu .dropdown-item{
+  color: white;
+  font-size: 20px;
+} */
+/**** FIN DE MENU DE NAVEGACION *****/
+
+/***** INDEX *****/
+h2{
+  color: #f4efef;
+}
+
+/* CAROUSEL INDEX */
+
+.carousel-item img { 
+  max-width: 60%;
+  margin: auto; 
+} 
+
+.carousel-inner { 
+    text-align: center; 
+}
+.carousel-control-next{
+  width: 44%;
+} 
+.carousel-control-prev{
+width: 44%;
+}
+.custom-h5{
+  font-weight: 700;
+  color: white;
+  font-size: 24px;
+  
+}
+
+/* FIN CAROUSEL INDEX */
+
+/* INICIO NOVEDADES */
+.table{
+  text-align: center;
+  margin-left: 30%;
+  font-size: 16px;
+}
+/* FIN NOVEDADES */
+
+.btn-primary{
+  margin-left: 45%;
+  border: 2px solid rgb(20, 232, 113);
+  border-radius: 20px;
+}
+
+
+/***** SABIAS QUE *****/
+.sabiasqueFlex{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 10px;
+} 
+.sabiasqueInformacion{
+  position: relative;
+  max-width: 24%;
+}
+.sabiasqueInformacion img{
+  display: flex;
+  position: relative;
+  width: 94%;
+}
+.sabiasqueInformacion p{
+  color: black;
+  display: flex;
+  padding-top: 8%;
+  position: relative;
+  text-align: center;
+  max-width: 93%;
+}
+/***** FIN SABIAS QUE *****/
+.titulosIndex{
+  color: black;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.queTeLoCuenten{
+  text-align: center;
+  padding: 5%;
+  /* margin-top: 6%;
+  margin-bottom: 2%; */
+  font-size: 26px;
+  background: rgb(23,87,154);
+background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
+}
+
+.queTeLoCuenten div{
+  background: rgb(23,87,154);
+background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
+}
+
+
+/***** FIN INDEX *****/
+
+
+
+
+/***** FOOTER *****/
+footer{
+  background: rgb(21,73,127);
+  background: linear-gradient(166deg, rgba(21,73,127,1) 56%, rgba(17,15,84,1) 100%);
+}
+.footer1{
+  display: flex;
+  /* flex-wrap: nowrap; */
+  width: 100%;
+  justify-content: space-between;
+}
+/* footer{
+  width: 100%;
+  background: rgb(21,73,127);
+  background: linear-gradient(166deg, rgba(21,73,127,1) 56%, rgba(17,15,84,1) 100%);
+}
+.footer1{
+  width: 100%;
+  display: flex; 
+  position: relative;
+
+} */
+.menuFooter{
+ color:rgb(133, 22, 22);
+margin-left: 5%;
+margin-top: 15px;
+max-width: 50%;
+
+}
+.menuFooter li a{
+  /* display: flex; */
+   font-size: 22px;
+  padding:5px;
+  color:#f4efef;
+  text-decoration: none; 
+}
+.menuFooter li{
+  padding: 4px;
+}
+.logoFooter img {
+  max-height: 80px;
+}
+.menuFooter2{
+  margin-left: 5%;
+  max-width: 50%;
+}
+.menuFooter2 li{
+  list-style-type: none;
+  padding: 3px;
+} 
+.menuFooter2 .tituloFooter{
+  color: #f4efef;
+  font-size: 22px;
+}
+.menuFooter2 li a{
+  text-decoration: none;
+  padding-left: 8px;
+  margin-bottom: 15px;
+  color:#f4efef;
+  font-size: 21px;
+} 
+.parrafoFooter{
+  display: block;
+text-align: center;
+  color:#f4efef;
+  margin-bottom: 0;
+}
+
+  /***** End FOOTER *****/
+
+/***** Pagina SERIES *****/
+.imagenesSeries div{
+  max-height: 4%;
+}
+.imagenesSeries img{
+  max-width: 12%;
+  padding-left: 7%;
+}
+.alinearImgSeries1{
+  margin-bottom: 3%;
+}
+.alinearImgSeries2{
+  height: 150px;
+}
+/***** END Pagina SERIES *****/
+
+  /***** Pagina CONTACTO *****/
+ 
+  .mainFooter{
+    margin-left: 20%;
+    max-width: 60%;
+  }
+ 
+  .formularioContacto{
+    font-size: 25px;
+  }
+  .sectionFooter{
+    text-align: center;
+    max-width: 60%;
+    font-size: 25px;
+    margin-left:20% ;
+
+  } 
+  .botonesContacto{
+    margin-bottom: 3%;
+  }
+  .botonBorrar{
+    padding: 5px;
+    margin-left: 5%;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+    border-style: ridge;
+    border: 4px solid rgb(12, 16, 144);
+    background: rgb(14,68,148);
+    background: linear-gradient(166deg, rgba(14,68,148,1) 32%, rgba(23,32,154,1) 58%);
+  }
+  .botonEnviar{
+    padding: 5px;
+    margin-left: 3%;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+    border-style: ridge;
+    border: 4px solid rgb(12, 16, 144);
+    background: rgb(14,68,148);
+    background: linear-gradient(166deg, rgba(14,68,148,1) 32%, rgba(23,32,154,1) 58%);
+  }
+  /***** END Pagina CONTACTO *****/
