@@ -71,37 +71,41 @@
                 </div>
             </div>
         </nav>
+        <!-- MENU VISTA DONDE ESTAS EN CADA PAGINA -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><b>Novedades</b></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="noticias.html">Noticias</a></li>
+            </ol>
+        </nav>
+        <!-- FIN MENU VISTA -->
+
         <!-- FIN DE NAV -->
         <!-- FIN BOOSTRAP NAV -->
-
-
-
-
-
-
+        <br><br>
+        <!-- INICIO DE FOOTER -->
         <footer>
-            <div class="footer1">
-                <spam class="logoFooter">
-                    <img src="../assets/images/Logo.jpeg" alt="Logo pagina">
-                </spam>
-                <div class="menuFooter">
-                    <!-- <spam class="menuFooter"> -->
+            <div class="container-fluid row g-3">
+                <div class="col-md-4 col-sm-8">
+                    <img src="../assets/images/Logo.jpeg" alt="Logo pagina" class="img-thumbnail">
+                </div>
+                <div class="col-md-4 textoFooter enlace fw-bold text-start lh-base">
                     <ul>
                         <li><a href="../index.html">Inicio</a></li>
-                        <!-- <li><a href="">Estrenos</a></li> -->
                         <li><a href="series.html">Series</a></li>
                         <li><a href="peliculas.html">Peliculas</a></li>
-                        <!-- <li><a href="">Novedades</a></li> -->
+
+
                         <li><a href="noticias.html">Noticias</a></li>
                         <li><a href="sabiasQue.html">Sabias que</a></li>
                         <li><a href="proximosEstrenos.html">Proximos Estrenos</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
-                    <!-- </spam> -->
                 </div>
-                <div class="menuFooter2">
-                    <h2 class="tituloFooter">CONTACTOS</h2>
-                    <ul>
+                <div class="col-md-4 textoFooter links fw-bold ">
+                    <h3 class="text-white">CONTACTOS</h3>
+                    <ul class="lh-base">
                         <li><img src="../assets/images/facebook.png" alt="Facebook">
                             <a href="https://www.facebook.com/" target="_blank">facebook</a>
                         </li>
@@ -121,14 +125,24 @@
                             <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
                         </li>
                         <li> <img src="../assets/images/radio01.png" alt="Radio">
-                            <a href="">RADIO JOSE</a>
+                            <a href="" target="_blank">RADIO JOSE</a>
                         </li>
                 </div>
             </div>
-            <hr>
-            <p class="parrafoFooter"><span style="color:rgb(199, 65, 65)"><b>(c) El Protector 2023.</b></span> Todos los
-                derechos reservados. </p>
+            <hr class="border border-danger border-2 opacity-50">
+            <p class="text-center parrafoFooter"><span style="color:rgb(199, 65, 65)"><b>(c) El Protector
+                        2023.</b></span> Todos
+                los derechos reservados. </p>
         </footer>
+        <!-- FIN DE FOOTER -->
+
+
+
+
+
+
+
+
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
             crossorigin="anonymous"></script>
@@ -136,4 +150,5 @@
             integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
             crossorigin="anonymous"></script>
 </body>
+
 </html>
