@@ -1,7 +1,7 @@
 * {
   margin: 0;
 }
-body{
+/* body{ */
   /* background: rgb(23, 800, 500); 
   background: radial-gradient(circle,rgba(13, 127, 195, 1) 56%,rgba(7, 48, 191, 1) 100%);  */
   /* background: rgb(4,71,171);
@@ -12,7 +12,12 @@ background: linear-gradient(166deg, rgba(5,14,177,1) 39%, rgba(6,0,177,1) 53%); 
 background: linear-gradient(164deg, rgba(62,67,164,1) 47%, rgba(56,53,168,1) 54%); */
 /* background: rgb(23,87,154);
 background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);*/
-} 
+/* }  */
+body{
+ /* background-color: #cbdad5 ; */
+ background-color: rgb(245, 236, 236);
+ 
+}
 
 /***** MENU DE NAVEGACION  *****/
 
@@ -26,8 +31,10 @@ background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
   max-width: 20%;
 }
 .navColor{
-  background: rgb(23,87,154);
-  background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
+  /* background: rgb(23,87,154);
+  background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%); FIJARSE CAMBIO*/
+  background: rgb(54,102,163);
+background: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64%);
 }
 
  .navbar-nav .nav-link.active{
@@ -62,7 +69,6 @@ h2{
   max-width: 60%;
   margin: auto; 
 } 
-
 .carousel-inner { 
     text-align: center; 
 }
@@ -157,8 +163,10 @@ font-size: 40px;
   /* margin-top: 6%;
   margin-bottom: 2%; */
   font-size: 26px;
-  background: rgb(23,87,154);
-background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
+  /* background: rgb(23,87,154);
+background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%); */
+background: rgb(54,102,163);
+background: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64%);
 }
 
 /* .queTeLoCuenten div{
@@ -174,8 +182,10 @@ background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
 
 /***** FOOTER ***TODO OK CON BOOTSTRAP**/
 footer{
-  background: rgb(21,73,127);
-  background: linear-gradient(166deg, rgba(21,73,127,1) 56%, rgba(17,15,84,1) 100%);
+  /* background: rgb(21,73,127);
+  background: linear-gradient(166deg, rgba(21,73,127,1) 56%, rgba(17,15,84,1) 100%); */
+  background: rgb(54,102,163);
+background: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64%);
 }
 .textoFooter li a{
   font-size: 22px;
@@ -239,10 +249,11 @@ text-align: center;
   /***** END Pagina CONTACTO *****/
 
 .fondoNoticias{
-  background: rgb(65,59,170);
-background: linear-gradient(351deg, rgba(65,59,170,1) 47%, rgba(96,96,208,1) 60%);
+  /* background: rgb(65,59,170);
+background: linear-gradient(351deg, rgba(65,59,170,1) 47%, rgba(96,96,208,1) 60%); */
     /* background: rgb(119, 170, 246); */
     /* background: linear-gradient(166deg, rgba(4,71,171,1) 44%, rgba(27,37,178,1) 57%); */
+    background-color: #cbdad5;
   }
 
   .contenedor{
@@ -271,15 +282,15 @@ background: linear-gradient(351deg, rgba(65,59,170,1) 47%, rgba(96,96,208,1) 60%
   border-radius: 15px;
 } 
 .tituloFlex{
-  background-color: rgb(174, 174, 174);
+  /* background-color: rgb(174, 174, 174); */
   margin: 10px 0;
   color: black;
 } 
 .parrafoFlex{
   border: 1.5px solid black;
-  background-color: rgb(250, 176, 176);
+  background-color: #89a7b1;
   margin: 10px 0;
-  color: black;
+  color: rgb(0, 0, 0);
 } 
 @media screen and (max-width: 768px) {
   .container {
