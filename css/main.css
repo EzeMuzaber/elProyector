@@ -1,0 +1,17 @@
+body {
+  background-image: url(/assets/images/Logos/pared-ladrillo2.jpg); }
+  body header nav {
+    background: #3666a3;
+    background: linear-gradient(351deg, #3666a3 49%, #35488a 64%); }
+    body header nav .navbar-collapse {
+      align-content: flex-end;
+      flex-direction: column-reverse;
+      flex-wrap: wrap; }
+    body header nav .logoMenu1 {
+      max-width: 20%; }
+    body header nav div ul li .dropdown-toggle {
+      font-size: 40px; }
+    body header nav div ul li .nav-link.active {
+      font-size: 20px; }
+    body header nav .breadcrumb {
+      background-image: url(/assets/images/Logos/pared-ladrillo2.jpg); }

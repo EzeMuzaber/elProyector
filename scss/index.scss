@@ -1,0 +1,33 @@
+body{
+    background-image: $fondoPagina;
+    header{
+        nav{
+            background: $fondoNav1;
+            background: $fondoNav2;
+            .navbar-collapse{
+                align-content: flex-end;
+                flex-direction:column-reverse;
+                flex-wrap:wrap;
+            }
+            .logoMenu1{
+                max-width: 20%;
+            }
+            div{
+                ul{
+                    li{
+                        .dropdown-toggle{
+                            font-size: 40px;
+                        }
+                        .nav-link.active{
+                            font-size: 20px;
+                        }
+
+                    }
+                }
+            }
+            .breadcrumb{
+                background-image: $fondoPagina;
+            }
+        }
+    }
+}

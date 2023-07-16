@@ -13,32 +13,33 @@ background: linear-gradient(164deg, rgba(62,67,164,1) 47%, rgba(56,53,168,1) 54%
 /* background: rgb(23,87,154);
 background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);*/
 /* }  */
-body{
- background-color: rgb(245, 236, 236);
-}
+
+/* body{ */
+ /* background-color: rgb(245, 236, 236); OK*/  
+ /* background-image: url(/assets/images/Logos/pared-ladrillo-blanca.jpg); */
+/* } */
 
 /***** MENU DE NAVEGACION  *****/
 
-.navbar-expand-lg .navbar-collapse{
-    align-content: flex-end;
+/* .navbar-expand-lg .navbar-collapse{ OK
     flex-direction:column-reverse;
     flex-wrap:wrap;
-  }
+  } */
 
-.logoMenu1{
+/* .logoMenu1{  OK
   max-width: 20%;
-}
-.navColor{
+} */
+/* .navColor{ NO NECESITE ESTA CLASE
   background: rgb(54,102,163);
 background: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64%);
-}
+} */
 
- .navbar-nav .nav-link.active{
-  font-size: 20px;
-} 
- .navbar-nav .nav-link.dropdown-toggle{
-  font-size: 20px;
-} 
+ /* .navbar-nav .nav-link.active{   OK
+  font-size: 20px;  OK
+}  */
+ /* .navbar-nav .nav-link.dropdown-toggle{
+  font-size: 20px;  OK
+}  */
 
 .dropdown-menu{
   background: rgb(23,87,154);
@@ -174,7 +175,7 @@ background: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64
 
   /***** Pagina NOTICIAS *****/
 .fondoNoticias{
-    background-color: #cbdad5;
+    /* background-color: #cbdad5; */
   }
 
   .contenedor{
