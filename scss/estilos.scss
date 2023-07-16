@@ -1,7 +1,10 @@
-$fondoPagina: url(../assets/images/Logos/pared-ladrillo2.jpg);
+$fondoPagina: "../assets/images/Logos/pared-ladrillo2.jpg";
 $fondoNav1:  rgb(54,102,163);
 $fondoNav2: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64%);
 
+*{
+    margin:0;
+}
 
 @import "index.scss";
 @import "series.scss";

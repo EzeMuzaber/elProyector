@@ -1,32 +1,49 @@
 body{
-    background-image: $fondoPagina;
-    header{
-        nav{
-            background: $fondoNav1;
-            background: $fondoNav2;
-            .navbar-collapse{
-                align-content: flex-end;
-                flex-direction:column-reverse;
-                flex-wrap:wrap;
-            }
-            .logoMenu1{
-                max-width: 20%;
-            }
-            div{
-                ul{
-                    li{
-                        .dropdown-toggle{
-                            font-size: 40px;
-                        }
-                        .nav-link.active{
-                            font-size: 20px;
-                        }
+        background-image: url('#{$fondoPagina}');
+        header{
+            nav{
+                background: $fondoNav1;
+                background: $fondoNav2;
+                .navbar-collapse{
+                    align-content: flex-end;
+                    flex-direction:column-reverse;
+                    flex-wrap:wrap;
+                }
+                .logoMenu1{
+                    max-width: 20%;
+                }
+                div{
+                    ul{
+                        .dropdown-menu{
+                            background: $fondoNav1;
+                            background: $fondoNav2;
+                            a{
+                                color:white;
+                            }
+                        .nav-item{
+                            .nav-link dropdown-toggle{
+                                font-size: 40px;
+                            }
+                            .nav-link.active{
+                                font-size: 20px;
+                            }
 
+                        }
                     }
                 }
+                .breadcrumb{
+                    background-image: url('#{$fondoPagina}');
+                }
             }
-            .breadcrumb{
-                background-image: $fondoPagina;
+        }
+        //FIN MENU DE NAVEGACION
+    }
+    main{
+        div{
+            .titulosIndex{
+                color: black;
+                padding-left: 10px;
+                font-size: 30px;
             }
         }
     }

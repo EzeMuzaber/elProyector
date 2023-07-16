@@ -1,6 +1,6 @@
-* {
+/* * {   OK
   margin: 0;
-}
+} */
 /* body{ SACAR EL QUE NO VAAA*/
   /* background: rgb(23, 800, 500); 
   background: radial-gradient(circle,rgba(13, 127, 195, 1) 56%,rgba(7, 48, 191, 1) 100%);  */
@@ -34,29 +34,30 @@ background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
 background: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64%);
 } */
 
- /* .navbar-nav .nav-link.active{   OK
-  font-size: 20px;  OK
-}  */
- /* .navbar-nav .nav-link.dropdown-toggle{
-  font-size: 20px;  OK
+ /* .navbar-nav .nav-link.active{   
+  font-size: 20px;  
+} 
+ .navbar-nav .nav-link.dropdown-toggle{
+  font-size: 20px; 
 }  */
 
-.dropdown-menu{
-  background: rgb(23,87,154);
+/* .dropdown-menu{
+  background: rgb(23,87,154);  OK
   background: linear-gradient(166deg, rgba(23,87,154,1) 50%, rgba(6,3,92,1) 100%);
-}
-.dropdown-menu a{
+} */
+/* .dropdown-menu a{  OK
  color:white;
-}
+} */
 
 
 /**** FIN DE MENU DE NAVEGACION *****/
 
 /***** INDEX *****/
-h2{
-  color: #f4efef;
-}
-
+/* .titulosIndex{
+  color: black;
+  padding-left: 10px;
+  font-size: 30px;
+} */
 /* CAROUSEL INDEX */
 
 .carousel-item img { 
@@ -119,11 +120,7 @@ font-size: 40px;
 /***** SABIAS QUE *****/
 
 /***** FIN SABIAS QUE *****/
-.titulosIndex{
-  color: black;
-  padding-left: 10px;
-  font-size: 30px;
-}
+
 .queTeLoCuenten{
   text-align: center;
   padding: 5%;
@@ -174,13 +171,12 @@ background: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64
   /***** END Pagina CONTACTO *****/
 
   /***** Pagina NOTICIAS *****/
-.fondoNoticias{
-    /* background-color: #cbdad5; */
-  }
+/* .fondoNoticias{
+    background-color: #cbdad5;
+  } */
 
   .contenedor{
   display: grid;
-  
   gap: 20px;
 }
 .grid1 {
