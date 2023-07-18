@@ -1,50 +1,111 @@
+//INDEX
 body{
-        background-image: url('#{$fondoPagina}');
-        header{
-            nav{
-                background: $fondoNav1;
-                background: $fondoNav2;
-                .navbar-collapse{
-                    align-content: flex-end;
-                    flex-direction:column-reverse;
-                    flex-wrap:wrap;
-                }
-                .logoMenu1{
-                    max-width: 20%;
-                }
-                div{
-                    ul{
-                        .dropdown-menu{
-                            background: $fondoNav1;
-                            background: $fondoNav2;
-                            a{
-                                color:white;
-                            }
-                        .nav-item{
-                            .nav-link dropdown-toggle{
-                                font-size: 40px;
-                            }
-                            .nav-link.active{
-                                font-size: 20px;
-                            }
-
+    background-image: url('#{$fondoPagina}');
+    header{
+        nav{
+            background: $fondoNav1;
+            background: $fondoNav2;
+            .navbar-collapse{
+                align-content: flex-end;
+                flex-direction:column-reverse;
+                flex-wrap:wrap;
+            }
+            .logoMenu1{
+                max-width: 20%;
+            }
+            div{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-size: 20px;
                         }
                     }
                 }
-                .breadcrumb{
-                    background-image: url('#{$fondoPagina}');
+                ul{
+                    .dropdown-menu{
+                        background: $fondoNav1;
+                        background: $fondoNav2;
+                        a{
+                            color:white;
+                        }
+                    }
+                }
+            }
+            .breadcrumb{
+                background-image: url('#{$fondoPagina}');
+                font-size: 18px;
+                padding-left: 1%;
+            }
+        }
+    }
+        //FIN MENU DE NAVEGACION 
+    //INICIO DE CAROUSEL
+
+    div{
+        .carousel-control-prev{
+            width: 44%;
+        }
+        .carousel-control-next{
+            width: 44%;
+        }
+        .titulosIndex{
+            color: black;
+            padding-left: 10px;
+            font-size: 30px;
+        }
+    }
+    div{
+        .carousel-inner{
+            text-align: center; 
+            .carousel-item{
+                img{
+                    max-width: 60%;
+                    margin: auto; 
                 }
             }
         }
-        //FIN MENU DE NAVEGACION
     }
-    main{
+    div{
         div{
-            .titulosIndex{
-                color: black;
-                padding-left: 10px;
-                font-size: 30px;
+            a{
+                .btn-primary{
+                    font-size: 18px;
+                    border: 2px solid rgb(20, 232, 113);
+                    border-radius: 20px;
+                }
             }
         }
     }
+    article{
+        .queTeLoCuenten{
+            text-align: center;
+            padding: 5%;
+            font-size: 26px;
+            background: $fondoNav1;
+            background: $fondoNav2;
+        }
+    }
+    footer{
+        background: $fondoNav1;
+        background: $fondoNav2;
+            div{
+                .textoFooter li a{
+                    font-size: 22px;
+                    padding:5px;
+                    color:#f4efef;
+                    text-decoration: none; 
+                    list-style-type: disc;
+                }
+                .enlace li{
+                    color: rgb(250, 73, 73);
+                    margin-top: 1rem;
+                }
+                .links li{
+                    list-style-type: none;
+                    padding: 3px;
+                }
+            }
+    }
 }
+
+

@@ -1,0 +1,38 @@
+//PAGINA SERIES
+body{
+    header{
+        .backgroundSeries{
+            background-image: url("../assets/images/Logos/fondoSeries.jpg");
+            background-repeat: repeat;
+        }
+        div{
+            .tituloSerie{
+                font-size: 40px;
+            }
+        }
+        .container-fluid{
+            div{
+                div{
+                    div{
+                        div{
+                            .img-fluid{
+                                width:300px;
+                                height: 300px;
+                            }
+                        }
+                        //.imagenesSeries{
+                        //     max-width: 20%;
+                        // }
+                    }
+                }
+            }
+
+        }
+        div{
+            .textoSeries{
+                font-size: 30px;
+                color: black
+            }
+        }
+    }
+}

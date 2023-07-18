@@ -1,0 +1,90 @@
+body{
+    header{
+        section{
+            .contenedor{
+                display:grid;
+                gap:20px;
+                .grid1{
+                    display:grid;
+                    grid-template-columns: auto 1fr;
+                    align-items: center;
+                    text-align: center; 
+                    .imgNoticia{
+                        width: 100%;
+                        max-width: 300px;
+                        height: auto;
+                        padding-left: 10px;
+                        border-radius: 15px;
+                    }
+                    .flex{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: 20px;
+                        .tituloFlex{
+                            margin: 10px 0;
+                            color:black;
+                        }
+                        .parrafoFlex{
+                            border: 1.5px solid black;
+                            background-color: #89a7b1;
+                            margin: 10px 0;
+                            color: rgb(0, 0, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//MEDIA QUERIES GENERAL
+@media screen and (max-width: 768px){
+    body{
+        header{
+            section{
+                .contenedor{
+                    .grid1{
+                        padding: 2%;
+                        grid-template-columns: 1fr;
+                        .imgNoticia{
+                            grid-column: 1;
+                            margin-left:auto;
+                            margin-right: auto;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        header{
+            section{
+                .contenedor{
+                    .grid1{
+                        grid-template-columns: 1fr;
+                        padding: 1%;
+                        .imgNoticia{
+                            grid-column: 1;
+                            margin-left:auto;
+                            margin-right: auto;
+                            }
+                        .flex{
+                            margin: 0px;
+                            .tituloFlex{
+                                font-size: 18px;
+                                margin: 0px;
+                            }
+                            .parrafoFlex{
+                                font-size: 12px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
