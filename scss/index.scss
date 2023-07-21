@@ -39,21 +39,18 @@ body{
         }
     }
         //FIN MENU DE NAVEGACION 
-    //INICIO DE CAROUSEL
 
-    div{
-        .carousel-control-prev{
-            width: 44%;
+        //INICIO DE INDEX
+        div{
+            .titulosIndex{
+                font-family: $tipografiaTitulo;
+                color: black;
+                padding-left: 10px;
+                font-size: 34px;
+            }
         }
-        .carousel-control-next{
-            width: 44%;
-        }
-        .titulosIndex{
-            color: black;
-            padding-left: 10px;
-            font-size: 30px;
-        }
-    }
+        
+    //INICIO DE CAROUSEL
     div{
         .carousel-inner{
             text-align: center; 
@@ -66,6 +63,14 @@ body{
         }
     }
     div{
+        .carousel-control-prev{
+            width: 44%;
+        }
+        .carousel-control-next{
+            width: 44%;
+        }
+    }
+    div{
         div{
             a{
                 .btn-primary{
@@ -73,6 +78,8 @@ body{
                     border: 2px solid rgb(20, 232, 113);
                     border-radius: 20px;
                 }
+             
+             
             }
         }
     }

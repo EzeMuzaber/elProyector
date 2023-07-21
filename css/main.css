@@ -23,19 +23,20 @@ body {
       background-image: url("../assets/images/Logos/pared-ladrillo2.jpg");
       font-size: 18px;
       padding-left: 1%; }
-  body div .carousel-control-prev {
-    width: 44%; }
-  body div .carousel-control-next {
-    width: 44%; }
   body div .titulosIndex {
+    font-family: "BioRhyme", serif;
     color: black;
     padding-left: 10px;
-    font-size: 30px; }
+    font-size: 34px; }
   body div .carousel-inner {
     text-align: center; }
     body div .carousel-inner .carousel-item img {
       max-width: 60%;
       margin: auto; }
+  body div .carousel-control-prev {
+    width: 44%; }
+  body div .carousel-control-next {
+    width: 44%; }
   body div div a .btn-primary {
     font-size: 18px;
     border: 2px solid #14e871;
@@ -67,6 +68,7 @@ body header .backgroundSeries {
   background-repeat: repeat; }
 
 body header div .tituloSerie {
+  font-family: "BioRhyme", serif;
   font-size: 40px; }
 
 body header .container-fluid div div div div .img-fluid {
