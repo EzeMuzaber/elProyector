@@ -1,11 +1,37 @@
-$fondoPagina: "../assets/images/Logos/pared-ladrillo2.jpg";
+$fondoPagina: "../assets/images/Logos/fondo6.jpg";
 $fondoNav1:  rgb(54,102,163);
 $fondoNav2: linear-gradient(351deg, rgba(54,102,163,1) 49%, rgba(53,72,138,1) 64%);
 $tipografiaTitulo: 'BioRhyme', serif;
+$colorTexto: black;
 
 *{
     margin:0;
 }
+ @mixin flex ($display,$flex-direction,$justify-content,$margin-left){
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    margin-left: $margin-left;
+ }
+@mixin grid ($display,$grid-template-columns,$align-items,$text-align){
+    display: $display;
+    grid-template-columns: $grid-template-columns;
+    align-items: $align-items;
+    text-align: $text-align;
+}
+$imagenNoticia:(
+    ancho: 100%,
+    max-ancho:300px,
+    altura: auto,
+    padding-izquierdo: 10px,
+    borde-curvo: 15px,
+);
+$parrafoFlex:(
+    borde: 1.5px solid $colorTexto,
+    color-fondo: #89a7b1,
+    margen: 10px 0,
+    color-parrafo: $colorTexto,
+);
 
 @import "index.scss";
 @import "series.scss";

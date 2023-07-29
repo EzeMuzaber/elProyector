@@ -22,9 +22,6 @@ body{
                                 height: 300px;
                             }
                         }
-                        //.imagenesSeries{
-                        //     max-width: 20%;
-                        // }
                     }
                 }
             }
@@ -33,7 +30,7 @@ body{
         div{
             .textoSeries{
                 font-size: 30px;
-                color: black
+                color: $colorTexto;
             }
         }
     }

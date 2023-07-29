@@ -2,7 +2,7 @@
   margin: 0; }
 
 body {
-  background-image: url("../assets/images/Logos/pared-ladrillo2.jpg"); }
+  background-image: url("../assets/images/Logos/fondo6.jpg"); }
   body header nav {
     background: #3666a3;
     background: linear-gradient(351deg, #3666a3 49%, #35488a 64%); }
@@ -11,7 +11,7 @@ body {
       flex-direction: column-reverse;
       flex-wrap: wrap; }
     body header nav .logoMenu1 {
-      max-width: 20%; }
+      max-width: 8%; }
     body header nav div .navbar-nav .nav-item .nav-link {
       font-size: 20px; }
     body header nav div ul .dropdown-menu {
@@ -20,19 +20,25 @@ body {
       body header nav div ul .dropdown-menu a {
         color: white; }
     body header nav .breadcrumb {
-      background-image: url("../assets/images/Logos/pared-ladrillo2.jpg");
+      background-image: url("../assets/images/Logos/fondo6.jpg");
       font-size: 18px;
       padding-left: 1%; }
   body div .titulosIndex {
     font-family: "BioRhyme", serif;
-    color: black;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding-left: 10px;
-    font-size: 34px; }
+    font-size: 39px;
+    padding: 2%; }
   body div .carousel-inner {
     text-align: center; }
     body div .carousel-inner .carousel-item img {
       max-width: 60%;
-      margin: auto; }
+      margin: auto;
+      object-fit: contain; }
   body div .carousel-control-prev {
     width: 44%; }
   body div .carousel-control-next {
@@ -41,6 +47,16 @@ body {
     font-size: 18px;
     border: 2px solid #14e871;
     border-radius: 20px; }
+  body section div div .img-thumbnail {
+    border-color: #121FCF;
+    border-width: 1px;
+    border-radius: 10px; }
+  body section div div p {
+    border: 1.5px solid black;
+    background-color: whitesmoke;
+    border-color: #121FCF;
+    margin: 10px 0;
+    color: black; }
   body article .queTeLoCuenten {
     text-align: center;
     padding: 5%;

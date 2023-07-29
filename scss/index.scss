@@ -11,7 +11,7 @@ body{
                 flex-wrap:wrap;
             }
             .logoMenu1{
-                max-width: 20%;
+                max-width: 8%;
             }
             div{
                 .navbar-nav{
@@ -44,12 +44,17 @@ body{
         div{
             .titulosIndex{
                 font-family: $tipografiaTitulo;
-                color: black;
+                background: #121FCF;
+                background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
                 padding-left: 10px;
-                font-size: 34px;
+                font-size: 39px;
+                padding: 2%;
+                
             }
         }
-        
     //INICIO DE CAROUSEL
     div{
         .carousel-inner{
@@ -58,10 +63,12 @@ body{
                 img{
                     max-width: 60%;
                     margin: auto; 
+                    object-fit: contain;
                 }
             }
         }
     }
+
     div{
         .carousel-control-prev{
             width: 44%;
@@ -78,11 +85,29 @@ body{
                     border: 2px solid rgb(20, 232, 113);
                     border-radius: 20px;
                 }
-             
-             
             }
         }
     }
+    section{
+        div{
+            div{
+                .img-thumbnail{
+                    border-color: #121FCF;
+                    border-width: 1px;
+                    border-radius: 10px;
+                }
+                p{
+                    border:map-get($parrafoFlex,borde);
+                    //background-color: map-get($parrafoFlex,color-fondo);
+                    background-color: whitesmoke;
+                    border-color: #121FCF;
+                    margin: map-get($parrafoFlex,margen);
+                    color: map-get($parrafoFlex,color-parrafo);
+                }
+            }
+        }
+    }
+
     article{
         .queTeLoCuenten{
             text-align: center;
@@ -95,24 +120,22 @@ body{
     footer{
         background: $fondoNav1;
         background: $fondoNav2;
-            div{
-                .textoFooter li a{
-                    font-size: 22px;
-                    padding:5px;
-                    color:#f4efef;
-                    text-decoration: none; 
-                    list-style-type: disc;
-                }
-                .enlace li{
-                    color: rgb(250, 73, 73);
-                    margin-top: 1rem;
-                }
-                .links li{
-                    list-style-type: none;
-                    padding: 3px;
-                }
+        div{
+            .textoFooter li a{
+                font-size: 22px;
+                padding:5px;
+                color:#f4efef;
+                text-decoration: none; 
+                list-style-type: disc;
             }
+            .enlace li{
+                color: rgb(250, 73, 73);
+                margin-top: 1rem;
+            }
+            .links li{
+                list-style-type: none;
+                padding: 3px;
+            }
+        }
     }
 }
-
-
