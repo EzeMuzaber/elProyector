@@ -49,25 +49,31 @@ body{
                 -webkit-background-clip: text;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
-                padding-left: 10px;
+                //padding-left: 10px;
                 font-size: 39px;
-                padding: 2%;
+                //padding: 2%;
                 
             }
         }
     //INICIO DE CAROUSEL
-    div{
-        .carousel-inner{
-            text-align: center; 
-            .carousel-item{
-                img{
+     div{
+        .carousel{
+            .carousel-control-prev,.carousel-control-next{
+                margin: 0;
+                width: 8%;
+            }
+        }
+         .carousel-inner{
+            
+             .carousel-item{
+               img{
                     max-width: 60%;
                     margin: auto; 
                     object-fit: contain;
-                }
-            }
-        }
-    }
+                 }
+             }
+         }
+     }
 
     div{
         .carousel-control-prev{
@@ -111,6 +117,7 @@ body{
     article{
         .queTeLoCuenten{
             text-align: center;
+            color: white;
             padding: 5%;
             font-size: 26px;
             background: $fondoNav1;
@@ -124,7 +131,7 @@ body{
             .textoFooter li a{
                 font-size: 22px;
                 padding:5px;
-                color:#f4efef;
+                color:#f4e5e5;
                 text-decoration: none; 
                 list-style-type: disc;
             }
@@ -135,6 +142,44 @@ body{
             .links li{
                 list-style-type: none;
                 padding: 3px;
+            }
+        }
+        .parrafoFooter{
+            margin:0;
+        }
+    }
+}
+
+//MEDIA QUERIE
+
+@media screen and (max-width: 768px){
+    body{
+        article{
+            .queTeLoCuenten{
+                h2{
+                    font-size: 24px;
+                }
+                h3{
+                    font-size: 20px;
+                }
+            }
+        }
+        footer{
+            div{
+                .textoFooter li a{
+                        font-size: 15px;
+                    
+                }
+            }
+            div{
+                h3{
+                    font-size: 18px;
+                }
+                ul{
+                    li a{
+                        font-size: 15px;
+                    }
+                }
             }
         }
     }

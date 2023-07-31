@@ -25,12 +25,33 @@ body{
                     }
                 }
             }
-
         }
         div{
             .textoSeries{
                 font-size: 30px;
                 color: $colorTexto;
+            }
+        }
+    }
+}
+
+//MEDIA QUERIE
+@media screen and (max-width: 768px){
+    .container-fluid{
+        div{
+            div{
+                div{
+                    div{
+                        .img-fluid{
+                            object-fit:fill;
+                        }
+                    }
+                    div{
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                }
             }
         }
     }
