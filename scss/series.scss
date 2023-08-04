@@ -1,24 +1,24 @@
 //PAGINA SERIES
-body{
-    header{
-        .backgroundSeries{
-            background-image: url("../assets/images/Logos/fondoSeries.jpg");
-            background-repeat: repeat;
-        }
-        div{
-            .tituloSerie{
+body {
+    .backgroundSeries {
+        background-image: url("../assets/images/Logos/fondoSeries.jpg");
+        background-repeat: repeat;
+
+        div {
+            .tituloSerie {
                 font-family: $tipografiaTitulo;
                 font-size: 40px;
 
             }
         }
-        .container-fluid{
-            div{
-                div{
-                    div{
-                        div{
-                            .img-fluid{
-                                width:300px;
+
+        .container-fluid {
+            div {
+                div {
+                    div {
+                        div {
+                            .img-fluid {
+                                width: 300px;
                                 height: 300px;
                             }
                         }
@@ -26,8 +26,9 @@ body{
                 }
             }
         }
-        div{
-            .textoSeries{
+
+        div {
+            .textoSeries {
                 font-size: 30px;
                 color: $colorTexto;
             }
@@ -36,19 +37,55 @@ body{
 }
 
 //MEDIA QUERIE
-@media screen and (max-width: 768px){
-    .container-fluid{
-        div{
-            div{
-                div{
-                    div{
-                        .img-fluid{
-                            object-fit:fill;
+@media screen and (max-width: 768px) {
+    body{
+        .backgroundSeries{
+            .container-fluid {
+                div {
+                    div {
+                        div {
+                            div {
+                                .img-fluid {
+                                    object-fit: fill;
+                                }
+                            }
+
+                            div {
+                                p {
+                                    font-size: 12px;
+                                }
+                            }
                         }
                     }
-                    div{
-                        p{
-                            font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        .backgroundSeries {
+            .container-fluid {
+                div {
+                    .card {
+                        div {
+                            .col-md-4 {
+                                max-width: 100%;
+                                max-height: 400px;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            div {
+                                p {
+                                    font-size: 15px;
+                                }
+                                .btn {
+                                    margin-left: 40%;
+                                }
+                            }
                         }
                     }
                 }

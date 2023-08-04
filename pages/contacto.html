@@ -17,6 +17,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+    <!-- LINK TIPOGRAFIA bIORNYME (TITULO)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/main.css">
 
 
@@ -79,302 +84,162 @@
             </ol>
         </nav>
         <!-- FIN MENU VISTA -->
-        <br>
-
-        <!-- INICIO DE FORMULARIO 1 -->
-        <main>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div>
-                        <div class="card border-primary">
-                            <div class="card-header bg-danger text-white">
-                                <h4 class="mb-0">Nos gustaria conocerte un poco mas</h4>
-                            </div>
-                            <div class="card-body">
-                                <form class="row g-3">
-                                    <div class="col-md-12 form-group">
-                                        <label for="nombre">Nombre</label>
-                                        <input type="text" class="form-control" id="nombre"
-                                            placeholder="Ingresa tu nombre">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="napellido">Apellido</label>
-                                        <input type="text" class="form-control" id="nombre"
-                                            placeholder="Ingresa tu apellido">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email"
-                                            placeholder="Ingresa tu correo electrónico">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="telefono">Teléfono</label>
-                                        <input type="tel" class="form-control" id="telefono"
-                                            placeholder="Ingresa tu número de teléfono">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label for="inputCity" class="form-label">Ciudad</label>
-                                        <input type="text" class="form-control" id="inputCity">
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <label for="inputState" class="form-label">Barrio</label>
-                                        <select id="inputState" class="form-select">
-                                            <option selected>Elegir...</option>
-                                            <option value="Almagro">Almagro</option>
-                                            <option value="Belgrano">Belgrano</option>
-                                            <option value="Boedo">Boedo</option>
-                                            <option value="Caballito">Caballito</option>
-                                            <option value="Chacarita">Chacarita</option>
-                                            <option value="Flores">Flores</option>
-                                            <option value="Liniers">Liniers</option>
-                                            <option value="Mataderos">Mataderos</option>
-                                            <option value="Nueva Pompeya">Nueva Pompeya</option>
-                                            <option value="Palermo">Palermo</option>
-                                            <option value="Parque Chacabuco">Parque Chacabuco</option>
-                                            <option value="Parque Patricios">Parque Patricios</option>
-                                            <option value="Villa Lugano">Villa Lugano</option>
-                                            <option value="Villa Soldati">Villa soldati</option>
-                                            <option value="Villa Urquiza">Villa Urquiza</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label for="inputZip" class="form-label">Codigo postal</label>
-                                        <input type="text" class="form-control" id="inputZip">
-                                    </div>
-                                    <div class="col-md-2">
-                                        <label for="genero">Genero: </label>
-                                    </div>
-                                    <div class="form-check form-check-inline col-md-2">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                            id="inlineRadio1" value="option1">
-                                        <label class="form-check-label" for="inlineRadio1">Masculino</label>
-                                    </div>
-                                    <div class="form-check form-check-inline col-md-2">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                            id="inlineRadio2" value="option2">
-                                        <label class="form-check-label" for="inlineRadio2">Femenino</label>
-                                    </div>
-                                    <div class="form-check form-check-inline col-md-2">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                            id="inlineRadio2" value="option2">
-                                        <label class="form-check-label" for="inlineRadio2">No especifica</label>
-                                    </div>
-                                    <div class="btn-group col-md-4">
-                                        <button type="reset" class="btn btn-primary ">Borrar</button>
-                                    </div>
-                                    <div class="btn-group col-md-4">
-                                        <button type="submit" class="btn btn-primary">Enviar</button>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <!-- FIN DE FORMULARIO 1 -->
-        <br>
-        <!-- INICIO DE FORMULARIO 2 -->
-
-        <section>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div>
-                        <div class="card border-primary">
-                            <div class="card-header bg-primary text-white">
-                                <h4 class="mb-0">Nos gustaria saber que te gusta</h4>
-                            </div>
-                            <div class="card-body">
-                                <form class="row g-3">
-                                    <div class="col-md-3">
-                                        <label for="genero">¿Te gusta el contenido de la pagina?</label>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <label for="customRange2" class="form-label col-md-1">No</label>
-                                        <label for="customRange2" class="form-label col-md-2">Masomenos</label>
-                                        <label for="customRange2" class="form-label col-md-2">Si</label>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <input type="range" class="form-range" min="0" max="2" id="customRange2">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="mensaje">¿Que informacion extra le agregarias a la pagina?</label>
-                                        <textarea class="form-control" id="mensaje" rows="5"
-                                            placeholder="Ingresa tu mensaje"></textarea>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label for="genero">¿Te gusta mas las series o las peliculas?</label>
-                                    </div>
-
-                                    <div class="btn-group col-md-2">
-                                        <input type="radio" class="btn-check" name="options" id="btn-check-1-outlined"
-                                            autocomplete="off">
-                                        <label class="btn btn-outline-primary" for="btn-check-1-outlined">Series</label>
-                                    </div>
-                                    <div class="btn-group col-md-2">
-                                        <input type="radio" class="btn-check" name="options" id="btn-check-2-outlined"
-                                            autocomplete="off">
-                                        <label class="btn btn-outline-primary"
-                                            for="btn-check-2-outlined">Peliculas</label><br>
-                                    </div>
-                                    <div>
-                                        <div class="col-md-6">
-                                            <label for="inputState" class="form-label col-md-12">¿Que genero te gusta
-                                                mas?</label>
-                                            <select id="inputState" class="form-select">
-                                                <option selected>Elegir...</option>
-                                                <option value="Accion">Acción</option>
-                                                <option value="Aventura">Aventura</option>
-                                                <option value="CienciaFiccion">Ciencia Ficción</option>
-                                                <option value="Comedia">Comedia</option>
-                                                <option value="Drama">Drama</option>
-                                                <option value="Fantasia">Fantasía</option>
-                                                <option value="Musical">Musical</option>
-                                                <option value="Suspense">Suspenso</option>
-                                                <option value="Terror">Terror</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <label for="inputState" class="form-label col-md-12">¿Que plataforma consumis
-                                            mas?. justifique</label><br>
-
-                                        <div class="form-check form-check-inline col-md-1">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                id="inlineRadio1" value="option1">
-                                            <label class="form-check-label" for="inlineRadio1">Netflix</label>
-                                        </div>
-                                        <div class="form-check form-check-inline col-md-1">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">Disney</label>
-                                        </div>
-                                        <div class="form-check form-check-inline col-md-1">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">Star+</label>
-                                        </div>
-                                        <div class="form-check form-check-inline col-md-1">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">HBOMax</label>
-                                        </div>
-                                        <div class="form-check form-check-inline col-md-2">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">PrimeVideo</label>
-                                        </div>
-                                        <div>
-                                            <textarea class="form-control" id="mensaje" rows="5"
-                                                placeholder="Ingresa tu mensaje"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <label for="genero">¿Sos de ir al cine?</label>
-                                    </div>
-                                    <div class="form-check form-check-inline col-md-1">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                            id="inlineRadio1" value="option1">
-                                        <label class="form-check-label" for="inlineRadio1">Si</label>
-                                    </div>
-                                    <div class="form-check form-check-inline col-md-1">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                            id="inlineRadio2" value="option2">
-                                        <label class="form-check-label" for="inlineRadio2">No</label>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label for="genero">Si tu respuesta es si, ¿A cual concurris
-                                            habitualmente?</label>
-                                    </div>
-                                    <div>
-                                        <div class="col-md-4">
-                                            <select id="inputState" class="form-select">
-                                                <option selected>Elegir...</option>
-                                                <option value="Accion">Hoyts</option>
-                                                <option value="Aventura">Cinemark</option>
-                                                <option value="CienciaFiccion">Cinepolis</option>
-                                                <option value="Comedia">Atlas cines</option>
-                                                <option value="Drama">Multiplex</option>
-                                                <option value="Fantasia">Showcase</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="btn-group col-md-4">
-                                        <button type="reset" class="btn btn-primary ">Borrar</button>
-                                    </div>
-                                    <div class="btn-group col-md-4">
-                                        <button type="submit" class="btn btn-primary">Enviar</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- FIN FORMULARIO 2 -->
-
-
-        <br>
-        <!-- INICIO DE FOOTER -->
-        <footer>
-            <div class="container-fluid row g-3">
-                <div class="col-md-4 col-sm-8">
-                    <img src="../assets/images/logo01.png" alt="Logo pagina">
-                </div>
-                <div class="col-md-4 textoFooter enlace fw-bold text-start lh-base">
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="series.html">Series</a></li>
-                        <li><a href="peliculas.html">Peliculas</a></li>
-
-
-                        <li><a href="noticias.html">Noticias</a></li>
-                        <li><a href="sabiasQue.html">Sabias que</a></li>
-                        <li><a href="proximosEstrenos.html">Proximos Estrenos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 textoFooter links fw-bold ">
-                    <h3 class="text-white">CONTACTOS</h3>
-                    <ul class="lh-base">
-                        <li><img src="../assets/images/facebook.png" alt="Facebook">
-                            <a href="https://www.facebook.com/" target="_blank">facebook</a>
-                        </li>
-                        <li> <img src="../assets/images/instagram.png" alt="Instagram">
-                            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                        </li>
-                        <li> <img src="../assets/images/twitter.png" alt="twitter">
-                            <a href="https://twitter.com/" target="_blank">Twitter</a>
-                        </li>
-                        <li> <img src="../assets/images/Youtube.png" alt="Youtube">
-                            <a href="https://www.youtube.com/" target="_blank">Youtube canal Proyector</a>
-                        </li>
-                        <li> <img src="../assets/images/TikTokLogo.png" alt="TikTok">
-                            <a href="https://www.tiktok.com/" target="_blank">Tiktok</a>
-                        </li>
-                        <li> <img src="../assets/images/LinkedinLogo.png" alt="Linkedin">
-                            <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
-                        </li>
-                        <li> <img src="../assets/images/radio01.png" alt="Radio">
-                            <a href="" target="_blank">RADIO JOSE</a>
-                        </li>
-                </div>
-            </div>
-            <hr class="border border-light border-2 opacity-50">
-            <p class="text-center parrafoFooter"><span style="color:rgb(88, 215, 188)"><b>(c) El Protector
-                        2023.</b></span>
-                <b>Todos los derechos reservados. </b>
-            </p>
-        </footer>
-        <!-- FIN DE FOOTER -->
-
-
     </header>
+    <!-- INICIO DE FORMULARIO 1 -->
+    <main>
+        <div>
+            <h2 class="titulosIndex text-center"> Contacto</h2>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center ">
+                <div class="col-md-8">
+                    <div class="card border-primary fondo">
+                        <div class="card-header bg-dark text-white">
+                            <h4 class="mb-0 text-center">Nos gustaria conocerte un poco mas</h4>
+                        </div>
+                        <div class="card-body">
+                            <form class="row g-3 col-md-12 text-center">
+                                <div class="form-group text-center">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control text-center" id="nombre"
+                                        placeholder="Ingresa tu nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label for="napellido">Apellido</label>
+                                    <input type="text" class="form-control text-center" id="nombre"
+                                        placeholder="Ingresa tu apellido">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control text-center" id="email"
+                                        placeholder="Ingresa tu correo electrónico">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="tel" class="form-control text-center" id="telefono"
+                                        placeholder="Ingresa tu número de teléfono">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputCity" class="form-label">Ciudad</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="inputState" class="form-label ">Barrio</label>
+                                    <select id="inputState" class="form-select text-center">
+                                        <option selected>Elegir...</option>
+                                        <option value="Almagro">Almagro</option>
+                                        <option value="Belgrano">Belgrano</option>
+                                        <option value="Boedo">Boedo</option>
+                                        <option value="Caballito">Caballito</option>
+                                        <option value="Chacarita">Chacarita</option>
+                                        <option value="Flores">Flores</option>
+                                        <option value="Liniers">Liniers</option>
+                                        <option value="Mataderos">Mataderos</option>
+                                        <option value="Nueva Pompeya">Nueva Pompeya</option>
+                                        <option value="Palermo">Palermo</option>
+                                        <option value="Parque Chacabuco">Parque Chacabuco</option>
+                                        <option value="Parque Patricios">Parque Patricios</option>
+                                        <option value="Villa Lugano">Villa Lugano</option>
+                                        <option value="Villa Soldati">Villa soldati</option>
+                                        <option value="Villa Urquiza">Villa Urquiza</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputZip" class="form-label">Codigo postal</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="genero">Genero: </label>
+                                </div>
+                                <div class="form-check form-check-inline col-md-2">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Masc</label>
+                                </div>
+                                <div class="form-check form-check-inline col-md-2">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Fem</label>
+                                </div>
+                                <div class="form-check form-check-inline col-md-2">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">No especifica</label>
+                                </div>
+                                <div class="row botones">
+                                    <div class="col-md-8 offset-md-2">
+                                        <div class="btn-group col-md-5">
+                                            <button type="reset" class="btn btn-primary mr-2">Borrar</button>
+                                        </div>
+                                        <div class="btn-group col-md-5">
+                                            <button type="submit" class="btn btn-primary">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    </divcla>
+                </div>
+            </div>
+    </main>
+    <!-- FIN DE FORMULARIO 1 -->
+    <br>
+
+    <!-- INICIO DE FOOTER -->
+    <footer>
+        <div class="container-fluid row g-3">
+            <div class="col-md-4 col-sm-8">
+                <img src="../assets/images/logo01.png" alt="Logo pagina">
+            </div>
+            <div class="col-md-4 textoFooter enlace fw-bold text-start lh-base">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="peliculas.html">Peliculas</a></li>
+
+
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="sabiasQue.html">Sabias que</a></li>
+                    <li><a href="proximosEstrenos.html">Proximos Estrenos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 textoFooter links fw-bold ">
+                <h3 class="text-white">CONTACTOS</h3>
+                <ul class="lh-base">
+                    <li><img src="../assets/images/facebook.png" alt="Facebook">
+                        <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                    </li>
+                    <li> <img src="../assets/images/instagram.png" alt="Instagram">
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    </li>
+                    <li> <img src="../assets/images/twitter.png" alt="twitter">
+                        <a href="https://twitter.com/" target="_blank">Twitter</a>
+                    </li>
+                    <li> <img src="../assets/images/Youtube.png" alt="Youtube">
+                        <a href="https://www.youtube.com/" target="_blank">Youtube Proyector</a>
+                    </li>
+                    <li> <img src="../assets/images/TikTokLogo.png" alt="TikTok">
+                        <a href="https://www.tiktok.com/" target="_blank">Tiktok</a>
+                    </li>
+                    <li> <img src="../assets/images/LinkedinLogo.png" alt="Linkedin">
+                        <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                    </li>
+                    <li> <img src="../assets/images/radio01.png" alt="Radio">
+                        <a href="" target="_blank">RADIO JOSE</a>
+                    </li>
+            </div>
+        </div>
+        <hr class="border border-light border-2 opacity-50">
+        <p class="text-center parrafoFooter"><span style="color:rgb(88, 215, 188)"><b>(c) El Protector
+                    2023.</b></span>
+            <b>Todos los derechos reservados. </b>
+        </p>
+    </footer>
+    <!-- FIN DE FOOTER -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>

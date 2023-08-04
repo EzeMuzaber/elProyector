@@ -1,82 +1,77 @@
-body{
-    header{
-        section{
-            .contenedor{
-                display:grid;
-                gap:20px;
-                .grid1{
-                    @include grid (grid,auto 1fr,center,center);
-                    .imgNoticia{
-                        width: map-get($imagenNoticia,ancho);
-                        max-width: map-get($imagenNoticia,max-ancho);
-                        height: map-get($imagenNoticia,altura);
-                        padding-left: map-get($imagenNoticia,padding-izquierdo);
-                        border-radius: map-get($imagenNoticia,borde-curvo);
+body {
+    section {
+        .contenedor {
+            display: grid;
+            gap: 20px;
+            .grid1 {
+                @include grid (grid, auto 1fr, center, center);
+                .imgNoticia {
+                    width: map-get($imagenNoticia, ancho);
+                    max-width: map-get($imagenNoticia, max-ancho);
+                    height: map-get($imagenNoticia, altura);
+                    padding-left: map-get($imagenNoticia, padding-izquierdo);
+                    border-radius: map-get($imagenNoticia, borde-curvo);
+                }
+                .flex {
+                    @include flex(flex, column, center, 20px);
+                    .tituloFlex {
+                        margin: map-get($parrafoFlex, margen);
+                        color: $colorTexto;
                     }
-                    .flex{
-                        @include flex(flex,column,center,20px);
-                        .tituloFlex{
-                            margin: 10px 0;
-                            color:$colorTexto;
-                        }
-                        .parrafoFlex{
-                            border:map-get($parrafoFlex,borde);
-                            background-color: map-get($parrafoFlex,color-fondo);
-                            margin: map-get($parrafoFlex,margen);
-                            color: map-get($parrafoFlex,color-parrafo);
-                        }
+                    .parrafoFlex {
+                        border: map-get($parrafoFlex, borde);
+                        background-color: map-get($parrafoFlex, color-fondo);
+                        margin: map-get($parrafoFlex, margen);
+                        color: map-get($parrafoFlex, color-parrafo);
+                        font-size: $tipografiaTitulo;
                     }
                 }
             }
         }
     }
 }
-//MEDIA QUERIES GENERAL
-@media screen and (max-width: 768px){
-    body{
-        header{
-            section{
-                .contenedor{
-                    .grid1{
-                        padding: 2%;
-                        grid-template-columns: 1fr;
-                        .imgNoticia{
-                            grid-column: 1;
-                            margin-left:auto;
-                            margin-right: auto;
-                            padding: 0;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 480px){
-    body{
-        header{
-            section{
-                
-                .contenedor{
-                    .grid1{
-                        grid-template-columns: 1fr;
-                        padding: 1%;
-                        .imgNoticia{
-                            grid-column: 1;
-                            margin-left:auto;
-                            margin-right: auto;
-                            }
-                        .flex{
-                            margin: 0px;
-                            .tituloFlex{
-                                font-size: 18px;
-                                margin: 0px;
-                            }
-                            .parrafoFlex{
-                                font-size: 12px;
-                            }
-                        }
 
+//MEDIA QUERIES GENERAL
+@media screen and (max-width: 768px) {
+    body {
+        section {
+            .contenedor {
+                .grid1 {
+                    padding: 2%;
+                    grid-template-columns: 1fr;
+                    .imgNoticia {
+                        grid-column: 1;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        section {
+            .contenedor {
+                .grid1 {
+                    grid-template-columns: 1fr;
+                    padding: 1%;
+                    .imgNoticia {
+                        grid-column: 1;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .flex {
+                        margin: 0px;
+                        .tituloFlex {
+                            font-size: 18px;
+                            margin: 0px;
+                        }
+                        .parrafoFlex {
+                            font-size: 12px;
+                        }
                     }
                 }
             }

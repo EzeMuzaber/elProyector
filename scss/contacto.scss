@@ -1,0 +1,33 @@
+body {
+    main {
+        .container{
+            div{
+                div{
+                    .fondo{
+                        background: rgb(33,157,184);
+                        div{
+                            form{
+                                div{
+                                    label, input{
+                                        font-family: $tipografiaTitulo;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .botones {
+            margin-top: 5%;
+            div {
+                div {
+                    button {
+                        background: $fondoNav1;
+                        background: $fondoNav2;
+                    }
+                }
+            }
+        }
+    }
+}
